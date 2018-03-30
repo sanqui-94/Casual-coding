@@ -4,7 +4,7 @@ def delete_duplicates(a_list):
     a_set = set()
     for i in a_list:
     	a_set.add(i)
-    return a_set
+    return list(a_set)
 
 
 def main():
