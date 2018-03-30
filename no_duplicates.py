@@ -1,5 +1,6 @@
 def delete_duplicates(a_list):
-    """This function recives a list, it returns a new list based on the original list but without the duplicate elements of it"""
+    """This function recives a list, it returns a new list based on the 
+    original list but without the duplicate elements of it"""
     new_list = []
     for i in a_list:
         if not i in new_list:
