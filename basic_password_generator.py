@@ -1,11 +1,12 @@
 import random
 
+
 def password_generator():
     """This method will be in charge of generating the random passwords"""
     password = ''
     for i in xrange(7):
         password += chr(random.randint(33, 126))
-    
+
     return password
 
 
